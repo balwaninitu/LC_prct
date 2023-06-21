@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class LongestPalindrome {
 
 	public static void main(String[] args) {
-		String s = "acvghgvpbab";
+		String s = "bab";
 		/*expand from center algo - for pallindromic ques
 		 * e.g.acvghgvpbab (two pallindromic strings, vghgv and bab)
 		 * 1. Start from center e.g (g) and check other two chars(v, h) if they are 
@@ -49,6 +49,8 @@ public class LongestPalindrome {
 				
 				start =i-(len-1)/2;//go to left side, len-1 will be more accurate
 				end=i+len/2;//go to right side
+				System.out.println("start :"+start);
+				System.out.println("end :"+end);
 			}
 		}
 		System.out.println(s.substring(start,end+1));
@@ -65,6 +67,12 @@ public class LongestPalindrome {
 		while(i>=0 && j<s.length() && s.charAt(i)==s.charAt(j)) {
 			i--;
 			j++;
+			System.out.println("start i :"+i);
+			//System.out.println("s.charAt(i) :"+s.charAt(i));
+			//System.out.println("end j :"+j);
+			//System.out.println("s.charAt(j) :"+s.charAt(j));
+			//int var = j-i-1;
+			//System.out.println("j-i-1 :"+var);
 		}
 		return j-i-1;
 	}

@@ -8,7 +8,8 @@ import java.util.Set;
 public class ThreeSum {
 
 	public static void main(String[] args) {
-		 int[] array = {-1,0,1,2,-1,-4};
+		 //int[] array = {-1,0,1,2,-1,-4};
+		 int[] array = {3,0,-2,-1,1,2};
 		 Set<List<Integer>> set = new HashSet<>();
 		 Arrays.sort(array);
 		
@@ -16,8 +17,8 @@ public class ThreeSum {
 			  // current i is same as previous, it will create duplicate result
 			  if(i > 0 && array[i] == array[i-1])
 	                continue;
-			int j= i+1;//starts at 2nd ele
-			int k=array.length-1;//starts at last ele
+			int j= i+1;//starts at 2nd index of array
+			int k=array.length-1;//starts at last index of array
 			while(j<k) {
 				int sum = array[i]+array[j]+array[k];
 				if(sum == 0) {
