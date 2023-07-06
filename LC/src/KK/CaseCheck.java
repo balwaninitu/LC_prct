@@ -3,7 +3,7 @@ package KK;
 import java.util.Scanner;
 
 public class CaseCheck {
-
+//
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
