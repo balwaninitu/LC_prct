@@ -1,7 +1,7 @@
 package KK;
 //https://leetcode.com/problems/peak-index-in-a-mountain-array/
 public class PeakIndexInArray852 {
-
+//
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*

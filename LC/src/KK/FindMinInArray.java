@@ -1,5 +1,5 @@
 package KK;
-
+//
 public class FindMinInArray {
 
 	public static void main(String[] args) {

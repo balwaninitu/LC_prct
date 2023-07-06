@@ -1,5 +1,5 @@
 package KK;
-
+//
 public class Recursion {
 	
 	/*-when function is not finish execution, it will stay in stack

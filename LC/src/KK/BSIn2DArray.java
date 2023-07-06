@@ -1,7 +1,7 @@
 package KK;
 
 import java.util.Arrays;
-
+//
 public class BSIn2DArray {
 /*search in 2D array
  * we will start with 2 pointers

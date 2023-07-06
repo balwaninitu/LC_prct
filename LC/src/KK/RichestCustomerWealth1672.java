@@ -1,7 +1,7 @@
 package KK;
 //https://leetcode.com/problems/richest-customer-wealth/
 public class RichestCustomerWealth1672 {
-
+//
 	public static void main(String[] args) {
 		int [][]accounts = {{1,2,9},{3,2,2}};
 		

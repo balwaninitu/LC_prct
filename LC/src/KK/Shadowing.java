@@ -1,5 +1,5 @@
 package KK;
-
+//
 public class Shadowing {
 	
 	//in shadowing lower level shadow the upper level

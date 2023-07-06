@@ -1,5 +1,5 @@
 package KK;
-
+//
 public class Pallindrome {
 	
 	/*

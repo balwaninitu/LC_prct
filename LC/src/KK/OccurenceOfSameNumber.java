@@ -1,5 +1,5 @@
 package KK;
-
+//
 public class OccurenceOfSameNumber {
 
 	public static void main(String[] args) {

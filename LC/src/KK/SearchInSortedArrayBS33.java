@@ -1,6 +1,6 @@
 package KK;
 //https://leetcode.com/problems/search-in-rotated-sorted-array/
-
+//
 /*Rotated array
  * 
  * Rotation array means last element will come & other

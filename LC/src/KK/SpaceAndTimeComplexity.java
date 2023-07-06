@@ -1,5 +1,5 @@
 package KK;
-
+//
 public class SpaceAndTimeComplexity {
 	
 	/*Time complexity is not equal to time taken, it is a function

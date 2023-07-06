@@ -1,5 +1,5 @@
 package KK;
-
+//
 import java.util.Scanner;
 
 public class IsPrime {

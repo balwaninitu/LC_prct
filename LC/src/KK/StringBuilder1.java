@@ -1,5 +1,5 @@
 package KK;
-
+//
 public class StringBuilder1 {
 	/*
 	 * In string builder only one object is made and changes

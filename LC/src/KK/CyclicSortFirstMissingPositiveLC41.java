@@ -1,6 +1,6 @@
 package KK;
 //https://leetcode.com/problems/first-missing-positive/
-/*
+/*//
  * first sort array then find smallest
  * missing positive number
  * always start from 1 then keep on checking

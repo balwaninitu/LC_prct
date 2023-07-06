@@ -1,7 +1,7 @@
 package KK;
 //https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
 public class binarySearchInfiniteArray {
-
+//
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
